@@ -128,8 +128,27 @@ header {
 
 /*Estilos generales CARDS*/
 
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(../img/fondodelastarjetasdepreguntas.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .container__card-primary{
     padding-top: 100px;
+    backface-visibility: visible;
+
+
+
 }
 
 .card__primary{
@@ -137,6 +156,8 @@ header {
     margin: auto;
     text-align: center;
     padding: 0px 20px;
+    backface-visibility: visible;
+
 }
 
 .text__card-primary{
@@ -155,6 +176,8 @@ header {
     font-size: var(--text_size_title);
     font-weight: 600;
     color: var(--color_text-secundary);
+    color: black;
+     letter-spacing: 4px;
 }
 
 .container__box-cardPrimary{
@@ -162,6 +185,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
+    backface-visibility: visible;
 }
 
 .box__card-primary{
@@ -171,10 +195,11 @@ header {
     border-radius: 20px;
     margin: 14px;
     transition: all 300ms;
+    backface-visibility: visible;
 }
 
 .box__card-primary:hover{
-    border: 1px solid transparent;
+    border: 1px solid /*transparent*/;
     box-shadow: var(--box_shadow-primary);
 }
 
