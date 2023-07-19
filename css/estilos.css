@@ -161,7 +161,7 @@ header {
     height: 400px;
     position: relative;
     transform-style: preserve-3d;
-    transition: all 600ms;
+    transition: all 200ms;
 }
 
 .card__front {
@@ -224,7 +224,7 @@ header {
     padding: 10px 40px;
     margin-top: 30px;
     font-size: 16px;
-    cursor: pointer;
+    cursor:pointer;
     border: none;
     color: rgb(247, 244, 244);
     background: #58B0F6;
