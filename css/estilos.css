@@ -177,8 +177,8 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    /*backface-visibility: hidden;
-    */transform-style: preserve-3d;
+    backface-visibility: visible;
+    transform-style: preserve-3d;
     border-radius: 20px;
 }
 
