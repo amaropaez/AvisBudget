@@ -123,98 +123,6 @@ header {
 }
 
 
-
-
-
-/*Estilos generales CARDS*/
-
-main {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
-    perspective: 1000px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-image: url(../img/fondotarjetas.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.container__card-primary{
-    padding-top: 100px;
-    backface-visibility: visible;
-
-
-
-}
-
-.card__primary{
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    padding: 0px 20px;
-    backface-visibility: visible;
-
-}
-
-.text__card-primary{
-    max-width: 800px;
-    margin: auto;
-}
-
-.text__card-primary p{
-    color: black;
-    letter-spacing: 4px;
-  
-    font-weight: 500;
-}
-
-.text__card-primary h1{
-    
-    font-weight: 600;
-    
-    color: black;
-     letter-spacing: 4px;
-}
-
-.container__box-cardPrimary{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 40px;
-    backface-visibility: visible;
-}
-
-.box__card-primary{
-    max-width: 350px;
-    padding: 60px 40px;
-    border: 2px solid #e6e6e6;
-    border-radius: 20px;
-    margin: 14px;
-    transition: all 300ms;
-    backface-visibility: visible;
-}
-
-.box__card-primary:hover{
-    border: 1px solid /*transparent*/;
-    box-shadow: var(--box_shadow-primary);
-}
-
-.box__card-primary h2{
-   
-    margin-top: 40px;
-    font-weight: 500;
-}
-
-.box__card-primary p{
-    margin-top: 20px;
-}
-
-
-
 /************ 9 tarjetas con info ****************/
 
 
@@ -230,7 +138,7 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url(../img/fondodelastarjetasdepreguntas.png);
+    background-image: url(../img/fondotarjetas.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -253,7 +161,7 @@ main {
     height: 400px;
     position: relative;
     transform-style: preserve-3d;
-    transition: all 200ms;
+    transition: all 600ms;
 }
 
 .card__front {
@@ -316,7 +224,7 @@ main {
     padding: 10px 40px;
     margin-top: 30px;
     font-size: 16px;
-    cursor:pointer;
+    cursor: pointer;
     border: none;
     color: rgb(247, 244, 244);
     background: #58B0F6;
@@ -552,9 +460,6 @@ main h1{
     transition: all 600ms ease;
 }
 
-
-
-/********boton flotante********/
 
 
 
