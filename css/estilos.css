@@ -177,8 +177,8 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
+    /*backface-visibility: hidden;
+    */transform-style: preserve-3d;
     border-radius: 20px;
 }
 
@@ -195,7 +195,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #0f0f0f;
     transform: translateZ(60px);
 }
 
@@ -226,7 +226,7 @@ header {
     font-size: 16px;
     cursor: pointer;
     border: none;
-    color: white;
+    color: rgb(247, 244, 244);
     background: #58B0F6;
     box-shadow: 1px 1px 30px -5px #58B0F6;
     border-radius: 10px;
